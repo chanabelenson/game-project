@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/logIn.css" />
+    <title>Log in</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../pictures/logo.png">
+    </header>
+    <div class="theTop">
+        <div id="forms">
+            <div id="buttons">
+                <button id="sign" class="formsButtons" type="submit">Sign up</button>
+                <button id="log" class="formsButtons" type="submit">Log in</button>
+            </div>
+            <form id="logIn">
+                <h2 id="formTitle">Log in our games site:</h2><br>
+                <label for="email">Email:</label><br>
+                <input id="logEmail" type="email" class="data" required><br>
+                <label for="password">password:</label><br>
+                <input id="logPassword" type="password" class="data" required><br>
+                <p id="emptyFillsInLog"></p>
+                <p id="wrongDetails"></p>
+                <button type="submit" class="btn" id="logBtn">Log in</button>
+            </form>
+            <form id="signUp">
+                <h2 id="formTitle">Sign up to our gaming site:</h2><br>
+                <label for="firstName">First name:</label><br>
+                <input type="text" id="userName" class="data" required><br>
+                <label for="email">Email:</label><br>
+                <input id="signEmail" type="email" class="data" required><br>
+                <p id="emailError"></p>
+                <label for="password">password:</label><br>
+                <input id="signPassword" type="password" class="data" required><br>
+                <p id="passwordError"></p>
+                <p id="emptyFillsInSign"></p>
+                <button type="submit" class="btn" id="signBtn">Sign up</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="../js/logIn.js"></script>
+
+</html>
