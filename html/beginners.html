@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODECRACK-beginners</title>
+    <link rel="stylesheet" href="../css/index.css" />
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../pictures/logo.png">
+        <h1>CODECRACK</h1>
+    </header>
+    <main>
+        <div>
+            <div class="light" id="light1"></div>
+            <div class="light" id="light2"></div>
+            <div class="light" id="light3"></div>
+            <div class="light" id="light4"></div>
+            <div class="light" id="light5"></div>
+            <div class="light" id="light6"></div>
+        </div>
+        <div id="gameTools">
+            <div class="allCards">
+                <div class="card" id="tilde">~</div>
+                <div class="card" id="percent">%</div>
+                <div class="card" id="and">&</div>
+                <div class="card" id="dollar">$</div>
+                <div class="card" id="ladder">#</div>
+                <div class="card" id="asterisk">*</div>
+            </div>
+            <div id="gameBoard">
+                <div id="container"></div>
+            </div>
+            <div id="allSolutions">
+                <div class="solution" id="100">
+                </div>
+            </div>
+            <button class="send" id="send" type="submit">Send</button>
+        </div>
+        <audio id="cardSound" src="../music/cardSound.mp3" preload="auto"></audio>
+        <audio id="errorSound" src="../music/errorSound.mp3" preload="auto"></audio>
+    </main>
+    <p id="winner"></p>
+    <p id="gameOver"></p>
+</body>
+
+<script src="../js/beginners.js"></script>
+
+</html>
