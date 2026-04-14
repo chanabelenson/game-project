@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: Bahnschrift Light;
+}
+
+.logo {
+  padding: 0.5%;
+  width: 10%;
+  height: 10%;
+}
+
+.theTop {
+  display: flex;
+  flex-direction: row;
+  margin-top: -120px;
+}
+
+#forms {
+  background-color: bisque;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 1%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px rgb(180, 123, 57);
+  padding: 2%;
+  border-radius: 12px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.data {
+  background-color: black;
+  color: beige;
+  border-radius: 4px;
+  width: 60%;
+  padding: 2%;
+}
+
+.btn {
+  background-color: black;
+  font-size: 17px;
+  color: white;
+  border-radius: 4px;
+  margin: 20%;
+  padding: 2%;
+  align-items: center;
+  animation: pulse 2.4s infinite;
+}
+
+.btn:hover {
+  background-color: #c39268;
+  transform: scale(1.07);
+}
+
+.formsButtons {
+  color: black;
+  background: none;
+  margin: 5%;
+  border: none;
+  color: #c39268;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.formsButtons:hover {
+  text-decoration: underline overline;
+}
+
+p {
+  color: red;
+  font-size: 15px;
+}

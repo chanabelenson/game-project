@@ -1,0 +1,32 @@
+body {
+    background-image: url(../pictures/underConstructions.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.logo {
+    padding: 0.5%;
+    width: 10%;
+    height: 10%;
+}
+
+button {
+    background-color: black;
+    color: rgb(255, 213, 0);
+    border-color: rgb(255, 213, 0);
+    font-size: 20px;
+    border-radius: 7px;
+    width: 10%;
+    height: 8%;
+    margin-left: 85%;
+    margin-top: 23%;
+}
+
+button:hover {
+    transform: scale(1.07);
+}
