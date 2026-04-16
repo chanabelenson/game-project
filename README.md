@@ -44,6 +44,5 @@ Crack the Code:
 Drag the symbols into the empty slots and click "Send".
 
 Feedback:
-- Well (White): Correct symbol in correct position
-- Good (Black): Correct symbol but wrong position
-- Win/Loss: Solve within attempts (and time limit in advanced mode)
+- Well: Correct symbol in correct position
+- Good: Correct symbol but wrong position
